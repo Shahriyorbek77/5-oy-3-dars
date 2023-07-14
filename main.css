@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;800;900&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+  letter-spacing: 2px;
+  background-color: antiquewhite;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+
+input {
+  display: block;
+  width: 100%;
+  max-width: 300px;
+  padding: 10px 5px;
+  font-size: 25px;
+  font-family: inherit;
+  margin-left: auto;
+  margin-right: auto;  
+}
+.score{
+    text-align: center;
+    color:olive;
+    font-size: 3rem;
+    
+    
+
+}
+.time{
+    text-align: center;
+    color:olive;
+    font-size: 3rem;
+}
+
+
+.modal {
+  display: none;
+  position: fixed;
+  
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  
+  background-color: rgba(0,0,0, 0.5);
+}
+
+.modal-content {
+  background-color: #cde0e0;
+  text-align: center;
+  margin: 25% auto;
+  padding: 10px;
+  width: 25%;
+}
+
+#button{
+    margin: auto;
+    margin-top:5px;
+    text-align: center;
+    max-width: 300px;
+    padding: 10px 5px;
+  background-color: rgb(120, 177, 177);
+  
+}
+
+#button:hover, #button:focus{
+  background: rgb(105, 196, 161);
+  cursor: pointer;
+}
